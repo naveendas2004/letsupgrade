@@ -1,10 +1,10 @@
-original tuple = [(1,2,3) , [1,2] , ['a' , 'hit' , 'less']]
+original_Tuple = [(1,2,3) , [1,2] , ['a' , 'hit' , 'less']]
 
-ou = [x[0] for x in original tuple]
+out = [x[0] for x in original_Tuple]
 
-out1 = [i[1] for i in original tuple]
+out1 = [i[1] for i in original_Tuple]
 
-out2 = [j[-1] for j in origina tuple]
+out2 = [j[-1] for j in original_Tuple]
 
 new_List = out + out1 + out2
 
